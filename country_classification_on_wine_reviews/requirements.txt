@@ -1,0 +1,12 @@
+pandas
+numpy
+spacy
+shap
+matplotlib
+seaborn
+optuna
+torch
+scikit-learn
+joblib
+tqdm
+kagglehub
