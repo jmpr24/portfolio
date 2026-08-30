@@ -1,0 +1,36 @@
+{
+  "model_path": "best_mlp_tfidf.pth",
+  "test_path": "test1.csv",
+  "train_path": "train1.csv",
+  "vectorizer_source": "rebuilt_from_train1.csv",
+  "test_samples": 19486,
+  "n_classes": 38,
+  "input_dim": 5000,
+  "hidden_dims": [
+    460,
+    184,
+    64
+  ],
+  "dropout": 0.12542334011440948,
+  "best_params": {
+    "hidden_1": 460,
+    "hidden_2": 184,
+    "hidden_3": 64,
+    "dropout": 0.12542334011440948,
+    "lr": 0.0004187594718900631,
+    "l2": 1.99863407785289e-05,
+    "batch_size": 128,
+    "epochs": 12
+  },
+  "metrics": {
+    "accuracy": 0.8375756953710356,
+    "precision_macro": 0.3778686467908024,
+    "recall_macro": 0.3611679279018005,
+    "f1_macro": 0.3614247305764547,
+    "precision_weighted": 0.8373612534379127,
+    "recall_weighted": 0.8375756953710356,
+    "f1_weighted": 0.8366546704158282,
+    "roc_auc_macro_ovr": 0.9433128955611756,
+    "roc_auc_weighted_ovr": 0.9817799716521376
+  }
+}
